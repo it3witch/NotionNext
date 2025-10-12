@@ -9,7 +9,7 @@ const CONFIG = {
 
   NEXT_NAV_TYPE: 'normal', // ['fixed','autoCollapse','normal'] 分别是固定屏幕顶部并始终显示、固定屏幕顶部且滚动时隐藏，不固定屏幕顶部
 
-  NEXT_POST_LIST_COVER: false, // 文章列表显示封面图
+  NEXT_POST_LIST_COVER: true, // 文章列表显示封面图
   NEXT_POST_LIST_PREVIEW: true, // 显示文章预览
   NEXT_POST_LIST_SUMMARY: false, // 显示用户自定义摘要，有预览时优先只展示预览
 
@@ -18,7 +18,7 @@ const CONFIG = {
   NEXT_POST_HEADER_IMAGE_VISIBLE: false, // 文章详情页是否显示封面图
 
   // 右侧组件
-  NEXT_RIGHT_BAR: true, // 是否显示右侧栏
+  NEXT_RIGHT_BAR: false, // 是否显示右侧栏
   NEXT_RIGHT_LATEST_POSTS: true, // 右侧栏最新文章
   NEXT_RIGHT_CATEGORY_LIST: true, // 右侧边栏文章分类列表
   NEXT_RIGHT_TAG_LIST: true, // 右侧边栏标签分类列表
