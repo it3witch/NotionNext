@@ -34,7 +34,6 @@ const SideAreaLeft = props => {
         {/* 菜单 */}
         <section 
           className='shadow hidden lg:block mb-5 pb-4 hover:shadow-xl duration-200 dark:bg-hexo-black-gray' 
-          style={{ backgroundColor: 'hsl(225, 3%, 90%)' }}
         >
           <Logo className='min-h-32 bg-[hsl(225,3%,20%)]' {...props} />
           <div className='pt-2 px-2 '>
@@ -50,18 +49,18 @@ const SideAreaLeft = props => {
 
       <div className='sticky top-4 hidden lg:block'>
         <Card>
-          <Tabs className="bg-[hsl(225,3%,90%)]">
+          <Tabs>
             {showToc && (
               <div
                 key={locale.COMMON.TABLE_OF_CONTENTS}
-                className='dark:text-gray-400 text-gray-600 bg-[hsl(225,3%,90%)] dark:bg-hexo-black-gray duration-200'>
+                className='dark:text-gray-400 text-gray-600  dark:bg-hexo-black-gray duration-200'>
                 <Toc toc={post.toc} />
               </div>
             )}
 
             <div
               key={locale.NAV.ABOUT}
-              className='mb-5 bg-[hsl(225,3%,90%)] dark:bg-hexo-black-gray duration-200 py-6'>
+              className='mb-5 dark:bg-hexo-black-gray duration-200 py-6'>
               <InfoCard {...props} />
               <>
                 <div className='mt-2 text-center dark:text-gray-300 font-light text-xs'>
