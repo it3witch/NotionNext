@@ -7,9 +7,11 @@
 const Style = () => {
   return (
     <style jsx global>{`
-      // 底色
       body {
-        background-color: #444444;
+        background-image: url('/bg1.jpg');
+        background-size: cover;       /* 铺满整个页面 */
+        background-repeat: no-repeat; /* 不重复 */
+        background-attachment: fixed; /* 固定背景，不随滚动移动 */
       }
       .dark body {
         background-color: black;
