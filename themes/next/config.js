@@ -39,7 +39,11 @@ const CONFIG = {
   NEXT_ARTICLE_RELATE_POSTS: true, // 相关文章推荐
   NEXT_ARTICLE_COPYRIGHT: true, // 文章版权声明
   NEXT_ARTICLE_NOT_BY_AI: false, // 显示非AI写作
-  NEXT_ARTICLE_INFO: true // 显示文章信息
+  NEXT_ARTICLE_INFO: true, // 显示文章信息
+
+  CONTACT_EMAIL: 'xin2005629@163.com', // 邮箱地址 例如mail@tangly1024.com
+  CONTACT_GITHUB: 'https://github.com/it3witch', // 你的github个人主页 例如 https://github.com/tangly1024
+  CONTACT_BILIBILI: 'https://space.bilibili.com/38333493', // B站主页
 }
 
 export default CONFIG
