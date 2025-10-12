@@ -36,7 +36,7 @@ const SideAreaLeft = props => {
           className='shadow hidden lg:block mb-5 pb-4 hover:shadow-xl duration-200 dark:bg-hexo-black-gray' 
           style={{ backgroundColor: 'hsl(225, 3%, 90%)' }}
         >
-          <Logo className='min-h-32 ' {...props} />
+          <Logo className='min-h-32 bg-[hsl(225,3%,20%)]' {...props} />
           <div className='pt-2 px-2 '>
             <MenuList allowCollapse={true} {...props} />
           </div>
@@ -49,7 +49,7 @@ const SideAreaLeft = props => {
       </section>
 
       <div className='sticky top-4 hidden lg:block'>
-        <Card>
+        <Card className="bg-[hsl(225,3%,90%)]">
           <Tabs>
             {showToc && (
               <div
