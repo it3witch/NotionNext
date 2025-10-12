@@ -13,6 +13,18 @@ const Style = () => {
         background-repeat: no-repeat; /* 不重复 */
         background-attachment: fixed; /* 固定背景，不随滚动移动 */
       }
+
+      body::before {
+        content: "";
+        position: fixed; /* 全屏遮罩 */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4); /* 黑色半透明，可调0.1~0.7 */
+        z-index: -1; /* 保证内容在上层显示 */
+      }
+      
       .dark body {
         background-color: black;
       }
