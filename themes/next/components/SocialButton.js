@@ -87,7 +87,7 @@ const SocialButton = () => {
             rel='noreferrer'
             title={'bilibili'}
             href={siteConfig('CONTACT_BILIBILI')}>
-            <i className='fab fa-bilibili transform hover:scale-125 duration-150' />
+            <i className='fa-brands fa-bilibili transform hover:scale-125 duration-150' />
           </a>
         )}
         {siteConfig('CONTACT_YOUTUBE') && (
