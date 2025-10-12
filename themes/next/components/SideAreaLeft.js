@@ -48,7 +48,7 @@ const SideAreaLeft = props => {
         </section>
       </section>
 
-      <div className='sticky top-4 hidden lg:block'>
+      <div className='sticky top-4 hidden lg:block bg-[hsl(225,3%,90%)]'>
         <Card className="bg-[hsl(225,3%,90%)]">
           <Tabs>
             {showToc && (
