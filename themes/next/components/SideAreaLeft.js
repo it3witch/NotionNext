@@ -33,7 +33,7 @@ const SideAreaLeft = props => {
       <section className='w-60'>
         {/* 菜单 */}
         <section 
-          className='shadow hidden lg:block mb-5 pb-4 hover:shadow-xl duration-200 dark:bg-hexo-black-gray' 
+          className='shadow hidden lg:block mb-5 pb-4 bg-white hover:shadow-xl duration-200 dark:bg-hexo-black-gray' 
         >
           <Logo className='min-h-32 bg-[hsl(225,3%,20%)]' {...props} />
           <div className='pt-2 px-2 '>
