@@ -17,6 +17,12 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'it3witch', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '这是我的个人博客', // 作者简介
+
+  // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
+  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'xin2005629@163.com', // 邮箱地址 例如mail@tangly1024.com
+  CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/it3witch', // 你的github个人主页 例如 https://github.com/tangly1024
+  CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || 'https://space.bilibili.com/38333493', // B站主页
+  
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
@@ -69,11 +75,11 @@ const BLOG = {
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
+
+  // 鼠标点击烟花特效
+  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || true, // 开关
+  // 烟花色彩，感谢 https://github.com/Vixcity 提交的色彩
+  FIREWORKS_COLOR: ['255, 20, 97', '24, 255, 146', '90, 135, 255', '251, 243, 140'],
 }
 
 module.exports = BLOG
-
-// 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'xin2005629@163.com', // 邮箱地址 例如mail@tangly1024.com
-CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/it3witch', // 你的github个人主页 例如 https://github.com/tangly1024
-CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || 'https://space.bilibili.com/38333493', // B站主页
