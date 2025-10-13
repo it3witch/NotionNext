@@ -45,18 +45,18 @@ const Style = () => {
 
       /* 文章详情外层容器（含标题/元信息）透明度设置，确保覆盖父级 bg-* 工具类 */
       #theme-next [itemtype='https://schema.org/Movie'] {
-        background-color: rgba(255, 255, 255, 0.97) !important;
+        background-color: rgba(255, 255, 255, 0.95) !important;
       }
       .dark #theme-next [itemtype='https://schema.org/Movie'] {
-        background-color: rgba(17, 17, 17, 0.97) !important;
+        background-color: rgba(17, 17, 17, 0.95) !important;
       }
 
       /* 首页文章列表卡片：直接覆盖 bg-white / dark:bg-hexo-black-gray */
       #theme-next #posts-wrapper section.bg-white {
-        background-color: rgba(255, 255, 255, 0.97) !important;
+        background-color: rgba(255, 255, 255, 0.95) !important;
       }
       .dark #theme-next #posts-wrapper section.dark\:bg-hexo-black-gray {
-        background-color: rgba(17, 17, 17, 0.97) !important;
+        background-color: rgba(17, 17, 17, 0.95) !important;
       }
     `}</style>
   )
