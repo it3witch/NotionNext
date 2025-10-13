@@ -42,6 +42,14 @@ const Style = () => {
         background-size: 100% 2px;
         color: #4e80ee;
       }
+
+      /* 文章主体轻微透明背景（约90%不透明） */
+      #theme-next #article-wrapper {
+        background-color: rgba(255, 255, 255, 0.9);
+      }
+      .dark #theme-next #article-wrapper {
+        background-color: rgba(17, 17, 17, 0.9);
+      }
     `}</style>
   )
 }
