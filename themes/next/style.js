@@ -50,6 +50,14 @@ const Style = () => {
       .dark #theme-next #article-wrapper {
         background-color: rgba(17, 17, 17, 0.9);
       }
+
+      /* 文章详情外层容器（含标题/元信息）透明度设置，确保覆盖父级 bg-* 工具类 */
+      #theme-next [itemtype='https://schema.org/Movie'] {
+        background-color: rgba(255, 255, 255, 0.9) !important;
+      }
+      .dark #theme-next [itemtype='https://schema.org/Movie'] {
+        background-color: rgba(17, 17, 17, 0.9) !important;
+      }
     `}</style>
   )
 }
