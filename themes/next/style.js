@@ -58,6 +58,14 @@ const Style = () => {
       .dark #theme-next [itemtype='https://schema.org/Movie'] {
         background-color: rgba(17, 17, 17, 0.9) !important;
       }
+
+      /* 首页文章卡片背景 95% 不透明 */
+      #theme-next #home-posts .shadow > section {
+        background-color: rgba(255, 255, 255, 0.95) !important;
+      }
+      .dark #theme-next #home-posts .shadow > section {
+        background-color: rgba(17, 17, 17, 0.95) !important;
+      }
     `}</style>
   )
 }
