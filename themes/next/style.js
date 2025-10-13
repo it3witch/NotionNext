@@ -51,11 +51,11 @@ const Style = () => {
         background-color: rgba(17, 17, 17, 0.95) !important;
       }
 
-      /* 首页文章列表卡片：基于 #posts-wrapper 的 95% 不透明 */
-      #theme-next #posts-wrapper .shadow > section {
+      /* 首页文章列表卡片：直接覆盖 bg-white / dark:bg-hexo-black-gray */
+      #theme-next #posts-wrapper section.bg-white {
         background-color: rgba(255, 255, 255, 0.95) !important;
       }
-      .dark #theme-next #posts-wrapper .shadow > section {
+      .dark #theme-next #posts-wrapper section.dark\:bg-hexo-black-gray {
         background-color: rgba(17, 17, 17, 0.95) !important;
       }
     `}</style>
