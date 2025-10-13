@@ -43,20 +43,12 @@ const Style = () => {
         color: #4e80ee;
       }
 
-      /* 文章主体轻微透明背景（约90%不透明） */
-      #theme-next #article-wrapper {
-        background-color: rgba(255, 255, 255, 0.9);
-      }
-      .dark #theme-next #article-wrapper {
-        background-color: rgba(17, 17, 17, 0.9);
-      }
-
       /* 文章详情外层容器（含标题/元信息）透明度设置，确保覆盖父级 bg-* 工具类 */
       #theme-next [itemtype='https://schema.org/Movie'] {
-        background-color: rgba(255, 255, 255, 0.9) !important;
+        background-color: rgba(255, 255, 255, 0.95) !important;
       }
       .dark #theme-next [itemtype='https://schema.org/Movie'] {
-        background-color: rgba(17, 17, 17, 0.9) !important;
+        background-color: rgba(17, 17, 17, 0.95) !important;
       }
 
       /* 首页文章卡片背景 95% 不透明 */
