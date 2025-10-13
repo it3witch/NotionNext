@@ -184,13 +184,11 @@ const LayoutIndex = props => {
       </Card>
 
       <BlogListBar {...props} />
-      <div id='home-posts'>
-        {siteConfig('POST_LIST_STYLE') !== 'page' ? (
+      {siteConfig('POST_LIST_STYLE') !== 'page' ? (
           <BlogPostListScroll {...props} showSummary={true} />
         ) : (
           <BlogPostListPage {...props} />
-        )}
-      </div>
+      )}
     </>
   )
 }
